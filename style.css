@@ -41,6 +41,10 @@ a {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
+h2{
+    font-size: 22px;
+}
+
 .card img {
     object-fit: cover;
 }
@@ -61,6 +65,7 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    padding-top: 35px;
 }
 
 .hebergements-and-populaires section {
@@ -127,13 +132,14 @@ a {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #F2F2F2;
+    padding-left: 15px;
+    padding-right: 250px;
 }
 .gras{
     font-weight: 700;
 }
-
 
 /* Entete de la page d'accueil */
 
@@ -184,7 +190,7 @@ nav a:focus{
 
 form{
     display: grid;
-    grid-template-columns: 50px 150px 100px;
+    grid-template-columns: 50px 200px 125px;
     padding-bottom: 25px;
     padding-top: 25px;
 }
@@ -195,22 +201,16 @@ label{
     background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
 }
-label img{
-    position: relative;
-    width: 14px;
-    object-fit: contain;
-}
 
 input{
-    padding: 15px 5px 15px 16px;
+    padding-left: 20px;
     border: 1px solid #F2F2F2;
     border-right: 0px;
     border-left: 0px;
     font-weight: 900;
+    font-size: 18px;
 
 }
-
-
 
 button{
    background-color: #0065FC;
@@ -218,11 +218,81 @@ button{
    border: 1px solid #0065FC;
    border-left: 0px;
    border-radius: 0px 15px 15px 0px;
-   padding: 15px 16px 15px 16px;
    font-weight: 700;
+   font-size: 18px;
    
 }
 
+/* filtre */
+
+  .filtre{
+    display:inline-block;
+      padding:0px 20px 0px 0px;
+      font-weight: 900;
+  }
+  
+.section-filtre a{
+    text-decoration:none;
+    border: 1px solid #F2F2F2;
+    color: black;
+    border-radius:90px;
+    padding: 10px 15px 10px 15px;
+    font-weight:700;
+  }
+.section-filtre a:hover{
+    background-color: #DEEBFF;
+  }
+
+  .section-filtre i{
+    padding-right: 10px;
+  }
+  .section-filtre{
+    padding-bottom: 15px;
+  }
+
+    /* phrase sous les filtre*/
+
+.information{
+    display: inline;
+    padding-right: 10px;
+}
+
+.log-dispo{
+    display: inline;
+}
+                    /* la partie activité du site*/
+
+
+    
+
+.carte{
+    display: flex;
+    flex-direction: column;
+}
+
+.carte img{
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.carte-texte{
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px 19px 20px 19px;
+}
+.ensemble-carte{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 500px;
+    column-gap: 30px;
+}
+
+#ancre-activite{
+    padding: 25px 0px 25px 0px;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
