@@ -14,7 +14,7 @@
 
 body {
     display: flex;
-    justify-content: center;
+   justify-content: center;
 }
 
 .main-container {
@@ -70,7 +70,7 @@ a {
     box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
+/****** Hebergements (taille du carré gris) ***********/ 
 .hebergements {
     width: 65%;
 }
@@ -121,7 +121,107 @@ a {
 }
 
 
+/* Footer de la poage d'accueil*/
 
+.content-footer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+}
+.gras{
+    font-weight: 700;
+}
+
+
+/* Entete de la page d'accueil */
+
+nav img{
+    width: 62px;
+    height: 20px;
+}
+
+nav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+}
+
+nav a:focus{
+    color: #0065FC;
+    border-top: solid 2px #0065FC;
+    padding-top: 15px;
+}
+
+.nav-heberg{
+    margin-right: 50px;
+}
+
+/* Titre intro */
+
+.titre-intro h1{
+    padding-bottom:0px;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+.titre-intro p{
+    padding-top:0px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+/* Hébergement photo*/
+
+.photo-heberg{
+     object-fit: cover;
+}
+
+/* Barre de recherche*/
+
+form{
+    display: grid;
+    grid-template-columns: 50px 150px 100px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+label{
+    padding: 13px 16px 13px 16px;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+label img{
+    position: relative;
+    width: 14px;
+    object-fit: contain;
+}
+
+input{
+    padding: 15px 5px 15px 16px;
+    border: 1px solid #F2F2F2;
+    border-right: 0px;
+    border-left: 0px;
+    font-weight: 900;
+
+}
+
+
+
+button{
+   background-color: #0065FC;
+   color: white;
+   border: 1px solid #0065FC;
+   border-left: 0px;
+   border-radius: 0px 15px 15px 0px;
+   padding: 15px 16px 15px 16px;
+   font-weight: 700;
+   
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
