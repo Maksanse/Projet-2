@@ -293,6 +293,33 @@ button{
 #ancre-activite{
     padding: 25px 0px 25px 0px;
 }
+
+/* Les photos d'hebergements*/
+
+.boite-hebergement{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px;
+    gap: 30px;
+    row-gap: 30px;
+}
+
+.boite-hebergement-carte{
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    border: 5px solid white;
+    
+}
+.boite-hebergement-carte img{
+    height: 124px;
+    width: 240px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.boite-hebergement-content{
+    padding-left: 10px;
+    margin: 0px;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
