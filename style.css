@@ -482,7 +482,7 @@ footer ul{
 .hebergements-and-populaires .hebergements{
     background-color: white;
     border-radius: 0px;
-    width: 100;
+    width: 100%;
     padding: 15px;
     box-sizing: border-box;
 }
@@ -490,7 +490,7 @@ footer ul{
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 0px;
-    width: 100;
+    width: 100%;
     padding: 15px;
     box-sizing: border-box;
 }
@@ -521,7 +521,7 @@ footer ul{
         padding-top: 30px;
     }
     nav{
-        padding-bottom:auto;
+        
         padding-top: 0px;
         width: 100%;
         height: auto;
